@@ -1,35 +1,33 @@
 # frp
 
-[![frp](http://dockeri.co/image/snowdreamtech/frps)](https://hub.docker.com/r/snowdreamtech/frps)
-[![frp](http://dockeri.co/image/snowdreamtech/frpc)](https://hub.docker.com/r/snowdreamtech/frpc)
+[![frp](http://dockeri.co/image/yetio/frps)](https://hub.docker.com/r/yetio/frps)
+[![frp](http://dockeri.co/image/yetio/frpc)](https://hub.docker.com/r/yetio/frpc)
 
 Docker Image packaging for Frp.
 
 (amd64, arm32v6, arm32v7, arm64v8, i386)
 
-### [中文文档](https://www.itcoder.tech/posts/docker-frp/)
 
 ## Usage
 
 start frps
 
 ```bash
-docker run --restart=always --network host -d -v /etc/frp/frps.ini:/etc/frp/frps.ini --name frps snowdreamtech/frps
+docker run --restart=always --network host -d -v /etc/frp/frps.ini:/etc/frp/frps.ini --name frps yetio/frps
 ```
 
 start frpc
 
 ```bash
-docker run --restart=always --network host -d -v /etc/frp/frpc.ini:/etc/frp/frpc.ini --name frpc snowdreamtech/frpc
+docker run --restart=always --network host -d -v /etc/frp/frpc.ini:/etc/frp/frpc.ini --name frpc yetio/frpc
 ```
 
 ## Quick reference
 
-* Where to file issues:
+* Maintainer:
+yetio(yetio@126.com)
 
-[https://github.com/snowdreamtech/frp/issues](https://github.com/snowdreamtech/frp/issues)
-
-* Maintained by:
+* Folked from:
 
 snowdream <sn0wdr1am@icloud.com>
 
@@ -37,17 +35,17 @@ snowdream <sn0wdr1am@icloud.com>
 
 frpc:
 
-[amd64](https://cloud.docker.com/u/snowdreamtechamd64/repository/docker/snowdreamtechamd64/frpc), [arm32v6](https://cloud.docker.com/u/snowdreamtecharm32v6/repository/docker/snowdreamtecharm32v6/frpc), [arm32v7](https://cloud.docker.com/u/snowdreamtecharm32v7/repository/docker/snowdreamtecharm32v7/frpc), [arm64v8](https://cloud.docker.com/u/snowdreamtecharm64v8/repository/docker/snowdreamtecharm64v8/frpc), [i386](https://cloud.docker.com/u/snowdreamtechi386/repository/docker/snowdreamtechi386/frpc)
+[amd64](https://cloud.docker.com/u/yetioamd64/repository/docker/yetioamd64/frpc), [arm32v6](https://cloud.docker.com/u/yetioarm32v6/repository/docker/yetioarm32v6/frpc), [arm32v7](https://cloud.docker.com/u/yetioarm32v7/repository/docker/yetioarm32v7/frpc), [arm64v8](https://cloud.docker.com/u/yetioarm64v8/repository/docker/yetioarm64v8/frpc), [i386](https://cloud.docker.com/u/yetioi386/repository/docker/yetioi386/frpc)
 
 frps:
 
-[amd64](https://cloud.docker.com/u/snowdreamtechamd64/repository/docker/snowdreamtechamd64/frps), [arm32v6](https://cloud.docker.com/u/snowdreamtecharm32v6/repository/docker/snowdreamtecharm32v6/frps), [arm32v7](https://cloud.docker.com/u/snowdreamtecharm32v7/repository/docker/snowdreamtecharm32v7/frps), [arm64v8](https://cloud.docker.com/u/snowdreamtecharm64v8/repository/docker/snowdreamtecharm64v8/frps), [i386](https://cloud.docker.com/u/snowdreamtechi386/repository/docker/snowdreamtechi386/frps)
+[amd64](https://cloud.docker.com/u/yetioamd64/repository/docker/yetioamd64/frps), [arm32v6](https://cloud.docker.com/u/yetioarm32v6/repository/docker/yetioarm32v6/frps), [arm32v7](https://cloud.docker.com/u/yetioarm32v7/repository/docker/yetioarm32v7/frps), [arm64v8](https://cloud.docker.com/u/yetioarm64v8/repository/docker/yetioarm64v8/frps), [i386](https://cloud.docker.com/u/yetioi386/repository/docker/yetioi386/frps)
 
 * Supported Tags:
 
-[Frps](https://cloud.docker.com/u/snowdreamtech/repository/docker/snowdreamtech/frps/tags)
+[Frps](https://cloud.docker.com/u/yetio/repository/docker/yetio/frps/tags)
 
-[Frpc](https://cloud.docker.com/u/snowdreamtech/repository/docker/snowdreamtech/frpc/tags)
+[Frpc](https://cloud.docker.com/u/yetio/repository/docker/yetio/frpc/tags)
 
 ## Sponsors
 

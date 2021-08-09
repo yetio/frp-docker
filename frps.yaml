@@ -1,25 +1,25 @@
-image: snowdreamtech/frps:latest
+image: yetio/frps:latest
 tags: ["0.37.1"]
 manifests:
-  - image: snowdreamtechamd64/frps:latest
+  - image: yetioamd64/frps:latest
     platform:
       architecture: amd64
       os: linux
-  - image: snowdreamtechi386/frps:latest
+  - image: yetioi386/frps:latest
     platform:
       architecture: 386
       os: linux
-  - image: snowdreamtecharm32v6/frps:latest
+  - image: yetioarm32v6/frps:latest
     platform:
       architecture: arm
       os: linux
       variant: v6
-  - image: snowdreamtecharm32v7/frps:latest
+  - image: yetioarm32v7/frps:latest
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: snowdreamtecharm64v8/frps:latest
+  - image: yetioarm64v8/frps:latest
     platform:
       architecture: arm64
       os: linux
