@@ -1,25 +1,25 @@
 image: yetio/frps:latest
 tags: ["0.37.1"]
 manifests:
-  - image: yetioamd64/frps:latest
+  - image: yetio/amd64frps:latest
     platform:
       architecture: amd64
       os: linux
-  - image: yetioi386/frps:latest
+  - image: yetio/i386frps:latest
     platform:
       architecture: 386
       os: linux
-  - image: yetioarm32v6/frps:latest
+  - image: yetio/arm32v6frps:latest
     platform:
       architecture: arm
       os: linux
       variant: v6
-  - image: yetioarm32v7/frps:latest
+  - image: yetio/arm32v7frps:latest
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: yetioarm64v8/frps:latest
+  - image: yetio/arm64v8frps:latest
     platform:
       architecture: arm64
       os: linux

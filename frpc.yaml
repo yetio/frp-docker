@@ -1,25 +1,25 @@
 image: yetio/frpc:latest
 tags: ["0.37.1"]
 manifests:
-  - image: yetioamd64/frpc:latest
+  - image: yetio/amd64frpc:latest
     platform:
       architecture: amd64
       os: linux
-  - image: yetioi386/frpc:latest
+  - image: yetio/i386frpc:latest
     platform:
       architecture: 386
       os: linux
-  - image: yetioarm32v6/frpc:latest
+  - image: yetio/arm32v6frpc:latest
     platform:
       architecture: arm
       os: linux
       variant: v6
-  - image: yetioarm32v7/frpc:latest
+  - image: yetio/arm32v7frpc:latest
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: yetioarm64v8/frpc:latest
+  - image: yetio/arm64v8frpc:latest
     platform:
       architecture: arm64
       os: linux
